@@ -15,12 +15,15 @@ def multiplication(x, y):
 def square(x):
     return x * x
 
+def square_root(x):
+    return x ** (1/2)
+
 def subtraction(x, y):
     return x - y
 
 while True:
     os.system("clear")
-    user_input = input("What do you want to do?\n0- exit\n1- addition\n2- cube\n3- division\n4- multiplication\n5- square\n6- subtraction\n")
+    user_input = input("What do you want to do?\n0- exit\n1- addition\n2- cube\n3- division\n4- multiplication\n5- square\n6- square root\n7- subtraction\n")
 
     if user_input == "0":
         exit()
@@ -54,6 +57,11 @@ while True:
         print(square(number))
 
     if user_input == "6":
+        os.system("clear")
+        number = int(input("Number: "))
+        print(square_root(number))
+
+    if user_input == "7":
         os.system("clear")
         number_1 = int(input("Number 1: "))
         number_2 = int(input("Number 2: "))
