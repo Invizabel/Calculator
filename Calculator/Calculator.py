@@ -41,45 +41,45 @@ while True:
 
     if user_input == "1":
         os.system("clear")
-        number_1 = int(input("Number 1: "))
-        number_2 = int(input("Number 2: "))
+        number_1 = float(input("Number 1: "))
+        number_2 = float(input("Number 2: "))
         print(addition(number_1, number_2))
 
     if user_input == "2":
         os.system("clear")
-        number = int(input("Number: "))
+        number = float(input("Number: "))
         print(cube(number))
 
     if user_input == "3":
         os.system("clear")
-        number_1 = int(input("Number 1: "))
-        number_2 = int(input("Number 2: "))
+        number_1 = float(input("Number 1: "))
+        number_2 = float(input("Number 2: "))
         print(division(number_1, number_2))
 
     if user_input == "4":
         os.system("clear")
-        number_1 = int(input("Base number: "))
-        number_2 = int(input("Power number: "))
+        number_1 = float(input("Base number: "))
+        number_2 = float(input("Power number: "))
         print(exponent(number_1, number_2))
 
     if user_input == "5":
         os.system("clear")
-        number_1 = int(input("Number 1: "))
-        number_2 = int(input("Number 2: "))
+        number_1 = float(input("Number 1: "))
+        number_2 = float(input("Number 2: "))
         print(multiplication(number_1, number_2))
 
     if user_input == "6":
         os.system("clear")
-        number = int(input("Number: "))
+        number = float(input("Number: "))
         print(square(number))
 
     if user_input == "7":
         os.system("clear")
-        number = int(input("Number: "))
+        number = float(input("Number: "))
         print(square_root(number))
 
     if user_input == "8":
         os.system("clear")
-        number_1 = int(input("Number 1: "))
-        number_2 = int(input("Number 2: "))
+        number_1 = float(input("Number 1: "))
+        number_2 = float(input("Number 2: "))
         print(subtraction(number_1, number_2))
