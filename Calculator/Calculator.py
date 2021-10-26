@@ -44,42 +44,50 @@ while True:
         number_1 = float(input("Number 1: "))
         number_2 = float(input("Number 2: "))
         print(addition(number_1, number_2))
+        pause = input()
 
     if user_input == "2":
         os.system("clear")
         number = float(input("Number: "))
         print(cube(number))
+        pause = input()
 
     if user_input == "3":
         os.system("clear")
         number_1 = float(input("Number 1: "))
         number_2 = float(input("Number 2: "))
         print(division(number_1, number_2))
+        pause = input()
 
     if user_input == "4":
         os.system("clear")
         number_1 = float(input("Base number: "))
         number_2 = float(input("Power number: "))
         print(exponent(number_1, number_2))
+        pause = input()
 
     if user_input == "5":
         os.system("clear")
         number_1 = float(input("Number 1: "))
         number_2 = float(input("Number 2: "))
         print(multiplication(number_1, number_2))
+        pause = input()
 
     if user_input == "6":
         os.system("clear")
         number = float(input("Number: "))
         print(square(number))
+        pause = input()
 
     if user_input == "7":
         os.system("clear")
         number = float(input("Number: "))
         print(square_root(number))
+        pause = input()
 
     if user_input == "8":
         os.system("clear")
         number_1 = float(input("Number 1: "))
         number_2 = float(input("Number 2: "))
         print(subtraction(number_1, number_2))
+        pause = input()
